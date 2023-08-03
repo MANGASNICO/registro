@@ -1,4 +1,26 @@
+*{
+    margin: 0;
+    padding:0 ;
+   box-sizing: border-box;
+}
+body{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
 
+form{
+    background-color: rgb(236, 21, 21);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
